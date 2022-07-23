@@ -1,7 +1,5 @@
-package xyj.K个一组翻转链表;
+package xyj.K个一组翻转链表25;
 
-
-import java.util.TreeMap;
 
 class ListNode {
     int val;
