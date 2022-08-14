@@ -3,7 +3,7 @@ package xyj.下一个排列31;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+//https://www.cnblogs.com/houkai/p/3675270.html
 public class Solution {
 
     //没有重复元素（按照字典序列生成全排列）
@@ -21,7 +21,7 @@ public class Solution {
             System.out.println();
         }else {
             for (int i = t;i<nums.length;i++){
-                Arrays.sort(nums,t,nums.length);
+                //Arrays.sort(nums,t,nums.length);
                 swap(nums,t,i);
                 backtracking(result,nums,t+1);
                 swap(nums,t,i);
@@ -60,8 +60,10 @@ public class Solution {
 
     public static void main(String[] args) {
         //int[] nums = {1,2,3,4,5};
-        int[] nums = {3,2,1}    ;
+        //int[] nums = {3,2,1};
+        int[] nums = {1,2,3} ;
         Solution solution = new Solution();
+        solution.permutation(nums);
         solution.nextPermutation(nums);
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i]+" ");
