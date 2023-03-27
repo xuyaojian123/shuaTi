@@ -1,4 +1,4 @@
-package xyj.合并区间56;
+package xyj.P56合并区间;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -57,7 +57,7 @@ public class Solution {
             if (results[i]==1){
                 int[] inter = new int[2];
                 inter[0] = i;
-                while (results[i] == 1 && i < results.length){
+                while (results[i] == 1){
                     i++;
                 }
                 inter[1] = i-1;

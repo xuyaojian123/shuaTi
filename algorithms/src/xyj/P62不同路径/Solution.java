@@ -1,4 +1,4 @@
-package xyj.不同路径62;
+package xyj.P62不同路径;
 
 public class Solution {
 
