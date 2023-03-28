@@ -1,4 +1,4 @@
-package xyj.全排列II47;
+package xyj.P47全排列II;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -44,9 +44,11 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2,2,1,1} ;
+        //int[] nums = {2,2,1,1} ;
+        int[] nums = {3,2,1} ;
         Solution solution = new Solution();
         List<List<Integer>> lists = solution.permuteUnique(nums);
+        int a = 1;
 
     }
 }

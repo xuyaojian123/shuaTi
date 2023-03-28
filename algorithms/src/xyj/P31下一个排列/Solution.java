@@ -1,4 +1,4 @@
-package xyj.下一个排列31;
+package xyj.P31下一个排列;
 
 import java.util.ArrayList;
 import java.util.Arrays;
