@@ -40,6 +40,5 @@ public class Solution {
         int[] candidates = new int[]{2};
         int target = 1;
         solution.combinationSum(candidates,target);
-
     }
 }
