@@ -50,4 +50,15 @@ public class Solution {
         dfs2(cur + 1, nums);
     }
 
+    // µÚÈıÖÖdfs
+    public void subsetHelper(List<List<Integer>> results, ArrayList<Integer> path, int [] nums, int pos){
+        results.add(new ArrayList<>(path));
+
+        for (int i = pos; i< nums.length; i++) {
+            path.add(nums[i]);
+            subsetHelper(results, path, nums, i+1);
+            path.remove(path.size()-1);
+        }
+    }
+
 }
